@@ -1,0 +1,34 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.4;
+  width: 100%;
+  background: #fff;
+}
+.view {
+  margin: 10px auto;
+  padding: 0 10px;
+}
+.block {
+  min-height: 200px;
+  display: inline-block;
+  border: 1px solid #c3c3c3;
+  padding: .5rem;
+  box-shadow: 2px 2px 2px #CAC7C7;
+}
+.block .img {
+  background: url('https://hbimg.b0.upaiyun.com/0e343198bc21f4bfb6208dbb8e6d7d4358cffb3f2336c-M90TeP_fw658') no-repeat 0 0;
+  background-size: 100%;
+  width: 160px;
+  height: 200px;
+  float: left;
+}
+.block .text {
+  width: calc(100% - 180px);
+  height: 100%;
+  float: right;
+  font-size: 16px;
+}
